@@ -19,47 +19,49 @@
             <h1 class="cabecalho-titlo-principal">CodeClub Convert Money</h1>
         </header>
 
-        <main class="conteudo">
-            <label>
+        <main class="conteudo-principal">
+            <label class="conteudo-principal-texto">
                 Converter <b>de<b>
-                        <select>
-                            <option>
+                        <select class="conteudo-principal-select">
+                            <option class="conteudo-principal-select-texto">
                                 R$ Real brasileiro
                             </option>
                         </select>
             </label>
 
-            <label>
+            <label class="conteudo-principal-texto">
                 Converter <b>para<b>
-                        <select id="curency-troca">
-                            <option>
+                        <select class="conteudo-principal-select" id="curency-troca">
+                            <option class="conteudo-principal-select-texto">
                                 US$ Dólar americano
-                            <option>
+                            <option class="conteudo-principal-select-texto">
                                 € Euro
-                            <option>
+                            <option class="conteudo-principal-select-texto">
                                 Bitcoin
                         </select>
             </label>
 
-            <label>
+            <label class="conteudo-principal-texto">
                 valor
-                <input id="valorDaConversao" placeholder="R$10.000,00">
+                <input class="conteudo-principal-input" id="valorDaConversao" placeholder="R$10.000,00">
             </label>
-            <button id="convert-button" type="button">Converter</button>
+            <button class="conteudo-principal-botao" id="convert-button" type="button">Converter</button>
 
-            <section>
-                <div class="Group3">
-                    <img src="./assets/img/brasil 2.png" alt="bandeira-Brasil">
-                    <p class="conteiner-text">Real</p>
-                    <p class="conteiner-valor" id="valorEmReal">R$ 10.000,00</p>
+            <section class="conteudo-principal-resultado">
+                <div class="conteudo-principal-resultado">
+                    <img class="conteudo-principal-resultado-imagem" src="./assets/img/brasil 2.png"
+                        alt="bandeira-Brasil">
+                    <p class="conteudo-principal-resultado-texto">Real</p>
+                    <p class="conteudo-principal-resultado-valor" id="valorEmReal">R$ 10.000,00</p>
                 </div>
 
-                <img class="seta" src="./assets/img/Vector@2x.png" alt="seta">
+                <img class="conteudo-principal-resultado-imagem-seta" src="./assets/img/Vector@2x.png" alt="seta">
 
-                <div class="Group3">
-                    <img src="./assets/img/estados-unidos.png" id="currency-img" alt="bandeira-EUA">
-                    <p class="conteiner-text" id="text">Dólar Americano</p>
-                    <p class="conteiner-valor" id="valorConvertido">US$ 2.000,00</p>
+                <div class="conteudo-principal-resultado">
+                    <img class="conteudo-principal-resultado-imagem" src="./assets/img/estados-unidos.png"
+                        id="currency-img" alt="bandeira-EUA">
+                    <p class="conteudo-principal-resultado-texto" id="text">Dólar Americano</p>
+                    <p class="conteudo-principal-resultado-valor" id="valorConvertido">US$ 2.000,00</p>
                 </div>
             </section>
         </main>

@@ -7,13 +7,18 @@
 
 body {
     background: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
 }
 
 .cabecalho {
     width: 375px;
     background: #F4F4F4;
-    margin: 0 auto;
-    margin-top: 100px;
+
+
 
 }
 
@@ -21,6 +26,9 @@ body {
 header {
     background: #1B83E2;
     height: 66px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 h1 {
@@ -29,13 +37,12 @@ h1 {
     font-weight: 400;
     font-size: 24px;
     line-height: 18px;
-    text-align: center;
     color: #F4F4F4;
-    padding: 24px;
+
 }
 
 main {
-   
+
     padding: 24px;
 }
 
@@ -113,12 +120,14 @@ section {
     border-radius: 4px;
 }
 
-.Group3 {
-    text-align: center;
+.conteudo-principal-resultado {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     padding: 10px;
 }
 
-.conteiner-text {
+.conteudo-principal-resultado-texto {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -127,17 +136,11 @@ section {
     color: #777777;
 }
 
-.conteiner-valor {
+.conteudo-principal-resultado-valor {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 18px;
     color: #1B83E2;
-}
-
-.seta {
-    margin: 15px auto;
-    display: block;
-
 }
